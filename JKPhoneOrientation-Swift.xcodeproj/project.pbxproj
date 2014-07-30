@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16086601197623DA003E05E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16086600197623DA003E05E5 /* AppDelegate.swift */; };
+		16086603197623DA003E05E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16086602197623DA003E05E5 /* ViewController.swift */; };
+		16086606197623DA003E05E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16086604197623DA003E05E5 /* Main.storyboard */; };
+		16086608197623DA003E05E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16086607197623DA003E05E5 /* Images.xcassets */; };
+		16086614197623DB003E05E5 /* JKPhoneOrientation_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16086613197623DB003E05E5 /* JKPhoneOrientation_SwiftTests.swift */; };
+		16E4F3291979774A00530EBF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E4F3281979774A00530EBF /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1608660E197623DB003E05E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160865F3197623DA003E05E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160865FA197623DA003E05E5;
+			remoteInfo = "JKPhoneOrientation-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160865FB197623DA003E05E5 /* JKPhoneOrientation-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JKPhoneOrientation-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160865FF197623DA003E05E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16086600197623DA003E05E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16086602197623DA003E05E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16086605197623DA003E05E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16086607197623DA003E05E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1608660D197623DB003E05E5 /* JKPhoneOrientation-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JKPhoneOrientation-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16086612197623DB003E05E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16086613197623DB003E05E5 /* JKPhoneOrientation_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKPhoneOrientation_SwiftTests.swift; sourceTree = "<group>"; };
+		16E4F3281979774A00530EBF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160865F8197623DA003E05E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E4F3291979774A00530EBF /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1608660A197623DB003E05E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160865F2197623DA003E05E5 = {
+			isa = PBXGroup;
+			children = (
+				16E4F3281979774A00530EBF /* CoreMotion.framework */,
+				160865FD197623DA003E05E5 /* JKPhoneOrientation-Swift */,
+				16086610197623DB003E05E5 /* JKPhoneOrientation-SwiftTests */,
+				160865FC197623DA003E05E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160865FC197623DA003E05E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160865FB197623DA003E05E5 /* JKPhoneOrientation-Swift.app */,
+				1608660D197623DB003E05E5 /* JKPhoneOrientation-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160865FD197623DA003E05E5 /* JKPhoneOrientation-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				16086600197623DA003E05E5 /* AppDelegate.swift */,
+				16086602197623DA003E05E5 /* ViewController.swift */,
+				16086604197623DA003E05E5 /* Main.storyboard */,
+				16086607197623DA003E05E5 /* Images.xcassets */,
+				160865FE197623DA003E05E5 /* Supporting Files */,
+			);
+			path = "JKPhoneOrientation-Swift";
+			sourceTree = "<group>";
+		};
+		160865FE197623DA003E05E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160865FF197623DA003E05E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16086610197623DB003E05E5 /* JKPhoneOrientation-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				16086613197623DB003E05E5 /* JKPhoneOrientation_SwiftTests.swift */,
+				16086611197623DB003E05E5 /* Supporting Files */,
+			);
+			path = "JKPhoneOrientation-SwiftTests";
+			sourceTree = "<group>";
+		};
+		16086611197623DB003E05E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16086612197623DB003E05E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160865FA197623DA003E05E5 /* JKPhoneOrientation-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16086617197623DB003E05E5 /* Build configuration list for PBXNativeTarget "JKPhoneOrientation-Swift" */;
+			buildPhases = (
+				160865F7197623DA003E05E5 /* Sources */,
+				160865F8197623DA003E05E5 /* Frameworks */,
+				160865F9197623DA003E05E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JKPhoneOrientation-Swift";
+			productName = "JKPhoneOrientation-Swift";
+			productReference = 160865FB197623DA003E05E5 /* JKPhoneOrientation-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1608660C197623DB003E05E5 /* JKPhoneOrientation-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1608661A197623DB003E05E5 /* Build configuration list for PBXNativeTarget "JKPhoneOrientation-SwiftTests" */;
+			buildPhases = (
+				16086609197623DB003E05E5 /* Sources */,
+				1608660A197623DB003E05E5 /* Frameworks */,
+				1608660B197623DB003E05E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1608660F197623DB003E05E5 /* PBXTargetDependency */,
+			);
+			name = "JKPhoneOrientation-SwiftTests";
+			productName = "JKPhoneOrientation-SwiftTests";
+			productReference = 1608660D197623DB003E05E5 /* JKPhoneOrientation-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160865F3197623DA003E05E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jeremy Kreutzbender";
+				TargetAttributes = {
+					160865FA197623DA003E05E5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1608660C197623DB003E05E5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 160865FA197623DA003E05E5;
+					};
+				};
+			};
+			buildConfigurationList = 160865F6197623DA003E05E5 /* Build configuration list for PBXProject "JKPhoneOrientation-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160865F2197623DA003E05E5;
+			productRefGroup = 160865FC197623DA003E05E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160865FA197623DA003E05E5 /* JKPhoneOrientation-Swift */,
+				1608660C197623DB003E05E5 /* JKPhoneOrientation-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160865F9197623DA003E05E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16086606197623DA003E05E5 /* Main.storyboard in Resources */,
+				16086608197623DA003E05E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1608660B197623DB003E05E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160865F7197623DA003E05E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16086603197623DA003E05E5 /* ViewController.swift in Sources */,
+				16086601197623DA003E05E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16086609197623DB003E05E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16086614197623DB003E05E5 /* JKPhoneOrientation_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1608660F197623DB003E05E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160865FA197623DA003E05E5 /* JKPhoneOrientation-Swift */;
+			targetProxy = 1608660E197623DB003E05E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16086604197623DA003E05E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16086605197623DA003E05E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16086615197623DB003E05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16086616197623DB003E05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16086618197623DB003E05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JKPhoneOrientation-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16086619197623DB003E05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JKPhoneOrientation-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1608661B197623DB003E05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKPhoneOrientation-Swift.app/JKPhoneOrientation-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKPhoneOrientation-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1608661C197623DB003E05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKPhoneOrientation-Swift.app/JKPhoneOrientation-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKPhoneOrientation-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160865F6197623DA003E05E5 /* Build configuration list for PBXProject "JKPhoneOrientation-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16086615197623DB003E05E5 /* Debug */,
+				16086616197623DB003E05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16086617197623DB003E05E5 /* Build configuration list for PBXNativeTarget "JKPhoneOrientation-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16086618197623DB003E05E5 /* Debug */,
+				16086619197623DB003E05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1608661A197623DB003E05E5 /* Build configuration list for PBXNativeTarget "JKPhoneOrientation-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1608661B197623DB003E05E5 /* Debug */,
+				1608661C197623DB003E05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160865F3197623DA003E05E5 /* Project object */;
+}
